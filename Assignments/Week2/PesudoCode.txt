@@ -1,0 +1,24 @@
+Create class Blackjack
+Enable Random & input 
+
+create char for anotherCard & playAgain
+
+While Loop == playAgain is yes (or not no)
+----generate firstCard & secondCard
+----generate total from firstCard & secondCard
+----Print out firstCard, secondCard && total
+
+----WHILE LOOP == asking for another card
+--------Print to ask if wants another card
+--------Verify that it is Yes, yes, y or Y
+--------IF STATEMTN == wants another card true
+------------generate another card
+------------add that card to total
+------------print out card value
+------------print out total value
+------------IF STATEMENT == total > 21
+----------------print out "Bust." & break from Loop
+--------Print out if they want to play again
+-------Check to see if that is true (Y, Yes, yes, y)
+-------IF STATEMENT == true above
+----------change to another card as true
