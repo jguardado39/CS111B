@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DistanceTravelled",
+            "request": "launch",
+            "mainClass": "Readings.Chatper3.DistanceTravelled",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "console": "externalTerminal",
