@@ -6,15 +6,17 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
+            "name": "CodeLens (Launch) - PokerHands",
+            "request": "launch",
+            "mainClass": "Assignments.Week4.PokerHands",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AsterisksChallenge",
             "request": "launch",
             "mainClass": "Assignments.Week1.AsterisksChallenge",
-=======
-            "name": "CodeLens (Launch) - TestAvgAndGrade",
-            "request": "launch",
-            "mainClass": "Readings.Chatper5.TestAvgAndGrade",
->>>>>>> d14d72a1fa1eb170e5aa199f0da2becff1ebb144
             "console": "externalTerminal",
             "projectName": "CS111B_15c0653f"
         },
