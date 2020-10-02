@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CircleTester",
+            "request": "launch",
+            "mainClass": "Assignments.Week5.CircleTester",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PokerHands",
             "request": "launch",
             "mainClass": "Assignments.Week4.PokerHands",
