@@ -9,6 +9,7 @@
             "name": "CodeLens (Launch) - CircleTester",
             "request": "launch",
             "mainClass": "Assignments.Week5.CircleTester",
+            "console": "externalTerminal",
             "projectName": "CS111B_15c0653f"
         },
         {
