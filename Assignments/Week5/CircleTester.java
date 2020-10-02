@@ -1,6 +1,15 @@
 package Assignments.Week5;
 // import java.util.Scanner;
 
+/*
+*
+* John Guardado
+* CS 111B Section 932
+* Spring 2020
+* Professor Schatz
+*
+*/
+
 public class CircleTester {
     
     public static Circle[] initiateCircle(int x[], int y[], double r[]) {

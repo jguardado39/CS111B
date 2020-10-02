@@ -1,5 +1,14 @@
 package Assignments.Week5;
 
+/*
+*
+* John Guardado
+* CS 111B Section 932
+* Spring 2020
+* Professor Schatz
+*
+*/
+
 public class Circle {
     private double radius;
     private double x;
