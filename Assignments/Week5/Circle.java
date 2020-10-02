@@ -10,10 +10,12 @@ package Assignments.Week5;
 */
 
 public class Circle {
+    // field required
     private double radius;
     private double x;
     private double y;
 
+    
     public void setX(double value) {
         x = value;
     }
