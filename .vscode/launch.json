@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GuessingProgram",
+            "request": "launch",
+            "mainClass": "Assignments.Week6.GuessingProgram",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CircleTester",
             "request": "launch",
             "mainClass": "Assignments.Week5.CircleTester",
