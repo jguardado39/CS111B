@@ -45,7 +45,8 @@ public class Circle {
     }
 
     public boolean doesOverlap(Circle otherCircle) {
-        double distance = Math.pow(Math.pow((x - otherCircle.x),2) + Math.pow((y - otherCircle.y), 2), 0.5);
+        double distance = Math.pow(Math.pow((x - otherCircle.x),2) + 
+        Math.pow((y - otherCircle.y), 2), 0.5);
         double sumOfRadii = radius + otherCircle.radius;
 
         if (distance > sumOfRadii) {
