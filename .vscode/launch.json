@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringProcessorProgram",
+            "request": "launch",
+            "mainClass": "Assignments.Week9.StringProcessorProgram",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CircleTester",
             "request": "launch",
             "mainClass": "Assignments.Week7.CircleTester",
