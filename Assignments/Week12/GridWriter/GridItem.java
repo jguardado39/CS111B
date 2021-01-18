@@ -1,14 +1,24 @@
-package Assignments.Week11.GridWriter;
+package Assignments.Week12.GridWriter;
 
 public class GridItem {
 	protected int x;
 	protected int y;
 	
-	public int getX() {return x;}
-	public void setX(int value) {x = value;}
+	public int getX() {
+		return x;
+	}
 	
-	public int getY() {return y;}
-	public void setY(int value) {y = value;}
+	public void setX(int value) {
+		x = value;
+	}
+	
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int value) {
+		y = value;
+	}
 	
 	public double getArea() {
 		return 0;

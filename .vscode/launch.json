@@ -6,6 +6,66 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Public",
+            "request": "launch",
+            "mainClass": "Assignments.FinalExam.Public",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Location",
+            "request": "launch",
+            "mainClass": "Assignments.FinalExam.Location",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyCircle",
+            "request": "launch",
+            "mainClass": "Assignments.FinalsWeek.PracticeExam1.MyCircle",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - setFrstLast",
+            "request": "launch",
+            "mainClass": "Assignments.FinalsWeek.PracticeExam1.setFrstLast",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BattleshipMain",
+            "request": "launch",
+            "mainClass": "Assignments.Week14.BattleshipMain",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConwayMain",
+            "request": "launch",
+            "mainClass": "Assignments.Week13.conway.ConwayMain",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuessingGame",
+            "request": "launch",
+            "mainClass": "Assignments.Week12.NumberGuessers.GuessingGame",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GridWriterProgram",
+            "request": "launch",
+            "mainClass": "Assignments.Week12.GridWriter.GridWriterProgram",
+            "console": "externalTerminal",
+            "projectName": "CS111B_15c0653f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GuessingProgram",
             "request": "launch",
             "mainClass": "Assignments.Week10.GuessingProgram",

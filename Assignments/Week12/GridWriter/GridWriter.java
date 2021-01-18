@@ -1,4 +1,5 @@
-package Assignments.Week11.GridWriter;
+package Assignments.Week12.GridWriter;
+// import org.graalvm.compiler.hotspot.stubs.OutOfBoundsExceptionStub;
 
 public class GridWriter {
 	
@@ -42,11 +43,21 @@ public class GridWriter {
 		size++;
 	}
 	
-	/****
-	 * The display method prints a grid into standard output. The size of the grid is determined by the row and 
-	 * column values passed into the constructor
-	 ***/
+
+	//method should return the number of GridItems stored in the GridWriter
+	public int size() {
+		return size;
+	}
 	
+	//method should return the stored GridItems by index
+	public GridItem get(int index) throws IndexOutOfBoundsException {
+		if (items.length > 2) {
+			throw new IndexOutOfBoundsException("Warning: Can only use 2 GridItem objects in the program!");
+		}
+
+		return items[index];
+	}
+
 	public void display() {
 		int count;
 		
@@ -54,7 +65,7 @@ public class GridWriter {
 		for (int r = rows; r >= 0; r--) {
 			
 			// Loop through all columns
-			for (int c = 0; c <= columns; c++) {
+			for (int c = 0; c < columns; c++) {
 				
 				// Count the number of GridItems that cover this coordinate
 				count = 0;
@@ -97,18 +108,3 @@ public class GridWriter {
 		items = temp;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

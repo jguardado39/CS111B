@@ -1,0 +1,22 @@
+I acutally made two different classes
+
+1. HowManyNeighbors
+2. RandomColony
+
+For HowManyNeighbors it basically reqiures a row, column, and a CowayWorld class in 
+order to use one cell to count the number of neighbors it has adjacent. 
+Example
+. . .                 0 0 0
+. 0 . =============>  0 8 0
+. . .                 0 0 0
+
+This cell will be a pernament-always on cell so when they have an adjacent cell it 
+will count.
+
+
+For RandomColony will randomly place a cell(s) depending on how long you will like
+for loop added to the grid. These always stay alive for now :) 
+
+UPDATE (12/1)
+WIth the new update on the class it will randomly add a colony on the grid and use the 
+same logic as ConwayCell for alive for next generation.

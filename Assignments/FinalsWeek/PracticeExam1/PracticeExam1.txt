@@ -1,0 +1,68 @@
+Short answer questions (8 points each)
+1.In your own words explain whether or not subclasses inherit constructors from their super classes.
+    A constructor from a subclass can call constructors from the superclass, but they're not inherited as such.
+    Constructor declarations are not members. They are never inherited and therefore are not subject to hiding or overriding.
+
+
+2.  Write a static method that accepts an array of integers as a parameter, and sets the first and last elements to 0. 
+    If there are no elements to set your method should throw an IllegalArgumentException.
+    Assignments/FinalsWeek/PracticeExam1/setFrstLast.java
+
+3. Imagine that you have access to a class named MyCircle that has  void setRadius(double r) and double getRadius() methods. 
+    Write a static method that accepts a MyCircle array. The method should accomplish two goals: it should return the 
+    average of the radius’s for all MyCircles that have a positive radius, and for any MyCircles that have a negative radius 
+    it should set the radius to 0.
+
+    
+4. Imagine that ClassB and ClassC are subclasses of ClassA.  For each of the references below, list the types of objects that the reference can refer to (some combination of ClassA, ClassB, and/or ClassC)
+
+ClassA  aReference;
+
+ClassB  bReference;
+
+ClassC  cReference;
+
+5. In your own words, describe the difference between a static method, and a plain old method. (1 or 2 sentences)
+
+6. Dice Holder (20 Points)
+
+Write a class named DiceHolder. The class should be able to store five integer values. You can assume that the values will always be 1 - 6. Your class does not need to verify that.
+
+The class should have the following Constructors and methods.
+
+DiceHolder(int value1, int value2, int value3, int value4, int value5)
+
+int getValue(int index)
+
+void setValue(int index, int value)
+
+int getTotal()  // Returns the total of the five values
+
+7. AdvancedDiceHolder (20 Points)
+
+Write a subclass of DiceHolder that adds one constructor, and one method. Users of AdvancedDiceHolder should have access to all methods and constructors in DiceHolder
+
+// You can assume that this argument will contain five ints, each 1 - 6
+
+AdvancedDiceHolder(int[] values)
+
+// Returns an array that holds the values that comes up most often.
+
+// For the following array: [5, 3, 5, 5, 6], return [5, 5, 5]
+
+// For the following array: [2, 3, 5, 5, 2], return [5, 5] or [2, 2] (either is correct)
+
+// For the following array: [2, 3, 4, 5, 1], return [1], [2], [3], [4], or [5]. They all tie.
+
+Int[] largestSet()
+
+8.SuperAdvancedDiceHoder (20 Points)
+
+Create a subclass of AdvancedDiceHolder that hides all constructors except the default constructor, and adds the following methods
+
+bool isStraight()  // returns true if the values form a straight, in no particular order.
+
+bool hasPair()  // returns true if the there are any duplicate values.  
+
+Bool isNotAll1s() // Returns true if there are any values greater than one.
+

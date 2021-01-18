@@ -1,4 +1,4 @@
-package Assignments.Week11.GridWriter;
+package Assignments.Week12.GridWriter;
 
 public class MyRectangle extends GridItem {
 
